@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: -apple-system, 'Yu Gothic',BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #454545;
+}
+.head__inner{
+    margin-top: 1.6em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .navbar{
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+    }
+}
+
+.foot__outer{
+    margin-right: 1.6em;
+    margin-left: 1.6em;
+}
